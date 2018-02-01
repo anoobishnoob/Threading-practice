@@ -61,7 +61,7 @@ namespace ConsoleApp2
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(num);
-                Thread.Sleep(1000);
+                Thread.Sleep(1000); //1000 here stands for 1000ms, so basically 1 second
                 num++;
             }
             Console.Write("Thread ends here");
